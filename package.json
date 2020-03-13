@@ -1,0 +1,31 @@
+{
+  "name": "@ledgy/react-meteor-data",
+  "version": "2.0.1",
+  "description": "React hook for reactively tracking Meteor data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ledgy/react-meteor-data.git"
+  },
+  "keywords": [
+    "meteor",
+    "react",
+    "hooks",
+    "tracker",
+    "minimongo"
+  ],
+  "author": "timo@ledgy.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ledgy/react-meteor-data/issues"
+  },
+  "homepage": "https://github.com/Ledgy/react-meteor-data#readme",
+  "peerDependencies": {
+    "react": "16.13.0",
+    "@testing-library/react": "^8.0.7",
+    "@testing-library/react-hooks": "1.1.0"
+  }
+}
