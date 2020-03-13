@@ -1,11 +1,11 @@
 {
   "name": "@ledgy/react-meteor-data",
-  "version": "0.0.2",
+  "version": "2.0.1",
   "description": "React hook for reactively tracking Meteor data",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel react-packages/packages/react-meteor-data --out-dir dist",
+    "build": "babel react-packages/packages/react-meteor-data --keep-file-extension --out-dir dist",
     "prepack": "npm run build"
   },
   "repository": {
