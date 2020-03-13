@@ -1,6 +1,6 @@
 {
   "name": "@ledgy/react-meteor-data",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "React hook for reactively tracking Meteor data",
   "main": "dist/index.js",
   "scripts": {
