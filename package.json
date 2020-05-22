@@ -1,12 +1,14 @@
 {
   "name": "@ledgy/react-meteor-data",
-  "version": "2.0.2",
+  "version": "2.1.1",
   "description": "React hook for reactively tracking Meteor data",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel react-packages/packages/react-meteor-data --keep-file-extension --out-dir dist",
-    "prepack": "npm run build"
+    "build": "tsc",
+    "prepack": "npm run build",
+    "update": "cd react-packages && git pull && cd .."
   },
   "repository": {
     "type": "git",
@@ -29,10 +31,11 @@
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
+  "dependencies": {
+    "typescript": "3.9.3"
+  },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-react": "^7.8.3"
+    "@types/meteor": "1.4.47",
+    "@types/react": "16.9.35"
   }
 }

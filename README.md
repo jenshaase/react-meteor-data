@@ -15,3 +15,11 @@ Use the package like the original
 ```js
 import { useTracker } from '@ledgy/react-meteor-data';
 ```
+
+
+### Update
+
+```
+npm run update
+npm publish
+```
