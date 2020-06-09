@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "outDir": "dist/",
+      "declaration": true,
+      "jsx": "react",
+      "esModuleInterop": true
+    },
+    "files": ["react-packages/packages/react-meteor-data/index.js"]
+  }
