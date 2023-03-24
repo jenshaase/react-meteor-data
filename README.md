@@ -21,6 +21,8 @@ import { useTracker } from "@jenshaase/react-meteor-data";
 ### Update
 
 ```
-npm run update
-npm publish
+cd react-packages
+git checkout <commit>
+cd ..
+npm publish --access public
 ```
