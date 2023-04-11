@@ -1,6 +1,6 @@
 {
   "name": "@jenshaase/react-meteor-data",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "description": "React hook for reactively tracking Meteor data",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
